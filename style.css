@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Oleo+Script+Swash+Caps&family=UnifrakturMaguntia&display=swap');
+body{
+    background: linear-gradient(to right, white,white 60%, #E9E4DE 60%, #E9E4DE 100% );
+}
+.logo{
+    float:left;
+    margin-left: 5%;
+}
+.logo-img{
+    width:270px;
+}
+nav{
+    float:right;
+    margin-right: 5%;
+}
+ul{
+   margin-top: 65px;
+  
+}
+li{
+    display: inline-block;
+    line-height: 1.5;
+    padding-right: 27px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li:last-child{
+    padding-right: 0;
+}
+.clearfix {
+    clear: both;
+}
+.main-screen{
+    height: 500px;
+    
+}
+.text{
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:50px 0px 0px 100px;
+    
+}
+.img{
+    float: right;
+}
+h1{
+    font-size: 50px;
+}
+
+button{
+    margin-top: 20px;
+    height:30px;
+    width: 120px;
+    border-radius: 2px;
+    border: none;
+}
+.btn-first{
+    background-color: #98a168;
+    margin-right: 20px;
+    
+}
+.btn-second{
+    background-color: #E9E4DE;
+    
+}
